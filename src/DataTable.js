@@ -28,12 +28,13 @@ const DataTable = ({data}) => {
             <TableCell component="th" scope="row">
               {row.name}
             </TableCell>
+            {/* korean, english, math, physical, music, art */}
             <TableCell align="right">{row.korean}</TableCell>
             <TableCell align="right">{row.english}</TableCell>
             <TableCell align="right">{row.math}</TableCell>
             <TableCell align="right">{row.physical}</TableCell>
-            <TableCell align="right">{row.math}</TableCell>
-            <TableCell align="right">{row.english}</TableCell>
+            <TableCell align="right">{row.music}</TableCell>
+            <TableCell align="right">{row.art}</TableCell>
           </TableRow>
       ))}
       </TableBody>
